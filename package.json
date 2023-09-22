@@ -1,0 +1,20 @@
+{
+  "name": "nue-custom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "render.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "dev-refresh src --serve public --cmd 'npm run build'",
+    "build": "node render.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nuejs-core": "^0.1.0"
+  },
+  "devDependencies": {
+    "dev-refresh": "^1.2.1"
+  }
+}

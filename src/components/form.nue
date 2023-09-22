@@ -1,0 +1,12 @@
+<section @name="simple-form">
+
+<input type="text" class="form-control" value="{title}" @keyup.enter="title=this.value">
+
+{title}
+
+<script>
+
+title = "Hello world"
+</script>
+
+</section>

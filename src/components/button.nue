@@ -1,0 +1,10 @@
+<section @name="simple-button">
+
+<button class="btn btn-primary me-2 mb-2 mb-sm-0" @click="index++">click</button>
+
+<b>Clicks: {index}</b>
+
+<script>
+	index = 0
+</script>
+</section>
